@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.nt.Repository.ContactRepository;
 import com.nt.entity.Contact;
-@Service
+@Service("service")
 public class ContactServiceImpl implements ContactService {
 	@Autowired
 private ContactRepository repo;
